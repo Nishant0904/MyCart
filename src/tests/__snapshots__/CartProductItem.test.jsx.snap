@@ -1,0 +1,55 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Cart Product Item test > renders correctly 1`] = `
+<li
+  class="sc-guDLey kdAVyx"
+  data-testid="cart-product-item"
+>
+  <a
+    data-testid="cart-product-item__image-link"
+    href="/products/1"
+  >
+    <img
+      alt="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
+      src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    />
+  </a>
+  <div
+    class="sc-dmyCSP hIqMka"
+  >
+    <div>
+      <a
+        data-testid="cart-product-item__title-link"
+        href="/products/1"
+      >
+        <h4>
+          Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+        </h4>
+      </a>
+      <p>
+        $109.95
+      </p>
+    </div>
+    <div
+      class="sc-hLQSwg gYnMBA"
+    >
+      <p
+        data-testid="cart-product-item__quantity"
+      >
+        Qty: 
+        1
+      </p>
+      <button
+        class="sc-beySPh AktPX"
+      >
+        <img
+          alt="trash icon"
+          data-testid="cart-product-item__trash-btn"
+          src="/src/assets/icons/trash-2.svg"
+          title="Delete all of this item"
+        />
+      </button>
+    </div>
+  </div>
+</li>
+`;

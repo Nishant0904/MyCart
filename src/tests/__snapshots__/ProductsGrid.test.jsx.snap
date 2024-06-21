@@ -1,0 +1,88 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Products Grid test > renders correctly 1`] = `
+<section
+  class="sc-qZrbh gFWowj"
+  data-testid="products-grid"
+>
+  <div
+    class="sc-eDLKkx ceMjzl"
+    data-testid="product-card"
+  >
+    <a
+      class="sc-jTQCzO imamgb"
+      data-testid="product-card__image-link"
+      href="/products/1"
+    >
+      <img
+        alt="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
+        src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+        title="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
+      />
+    </a>
+    <div
+      class="sc-gLLuof kTfTWK"
+    >
+      <div
+        class="sc-iBdnpw jphUIh"
+      >
+        <a
+          data-testid="product-card__title-link"
+          href="/products/1"
+        >
+          <h4>
+            Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+          </h4>
+        </a>
+        <div
+          class="sc-fsYfdN cwoSHM"
+        >
+          <img
+            alt="star icon"
+            class="sc-beySPh htjDQV"
+            src="/src/assets/icons/star.png"
+          />
+          <p>
+            3.9
+          </p>
+        </div>
+      </div>
+      <p>
+        $109.95
+      </p>
+      <div
+        class="sc-dmyCSP gUwTfa"
+        data-testid="product-quantity-selector"
+      >
+        <div
+          class="sc-hLQSwg tApZJ"
+        >
+          <button
+            class="sc-guDLey hYdscr"
+            data-testid="product-quantity__decrement-btn"
+          >
+            –
+          </button>
+          <input
+            data-testid="product-quantity__number-input"
+            type="number"
+            value="1"
+          />
+          <button
+            class="sc-guDLey hYdscr"
+            data-testid="product-quantity__increment-btn"
+          >
+            +
+          </button>
+        </div>
+        <button
+          class="sc-guDLey hYdscr"
+          data-testid="product-quantity__add-to-cart-btn"
+        >
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+`;

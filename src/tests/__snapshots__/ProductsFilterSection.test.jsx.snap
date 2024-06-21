@@ -1,0 +1,103 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Products Filter Section test > renders correctly when data is available and loading is false 1`] = `
+<section
+  class="sc-guDLey RUbxG"
+  data-testid="products-filter-section"
+>
+  <h1 />
+  <div
+    class="sc-dmyCSP bYuVhk"
+  >
+    <div>
+      <label
+        for="search-input"
+      >
+        Search:
+      </label>
+      <input
+        autocomplete="off"
+        id="search-input"
+        type="text"
+      />
+    </div>
+    <div>
+      <label
+        for="category-select"
+      >
+        Category:
+      </label>
+      <select
+        id="category-select"
+      >
+        <option
+          value="all"
+        >
+          All
+        </option>
+        <option
+          value="electronics"
+        >
+          Electronics
+        </option>
+        <option
+          value="jewelery"
+        >
+          Jewelery
+        </option>
+        <option
+          value="men's clothing"
+        >
+          Men's clothing
+        </option>
+        <option
+          value="women's clothing"
+        >
+          Women's clothing
+        </option>
+      </select>
+    </div>
+    <div>
+      <label
+        for="sort-select"
+      >
+        Sort:
+      </label>
+      <select
+        id="sort-select"
+      >
+        <option
+          value="id-ascending"
+        >
+          Default (by SKU)
+        </option>
+        <option
+          value="title-ascending"
+        >
+          A-Z
+        </option>
+        <option
+          value="title-descending"
+        >
+          Z-A
+        </option>
+        <option
+          value="price-ascending"
+        >
+          Price (low to high)
+        </option>
+        <option
+          value="price-descending"
+        >
+          Price (high to low)
+        </option>
+        <option
+          value="rating-descending"
+        >
+          Rating (high to low)
+        </option>
+      </select>
+    </div>
+  </div>
+</section>
+`;

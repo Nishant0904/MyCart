@@ -1,0 +1,28 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home page > Home page matches snapshot 1`] = `
+<section
+  class="sc-iBdnpw jfPBdp"
+  data-testid="home-section"
+>
+  <h1
+    data-testid="home__hero-title"
+  >
+    <span>
+      Ever
+    </span>
+    ything You Could
+    <br />
+    <span>
+      Ever
+    </span>
+     Ask For
+  </h1>
+  <a
+    class="sc-gLLuof bgONbp"
+    href="/products"
+  >
+    Shop Collection
+  </a>
+</section>
+`;

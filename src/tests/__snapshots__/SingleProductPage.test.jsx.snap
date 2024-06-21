@@ -1,0 +1,84 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SingleProductPage test > renders product data correctly when data is available and loading is false 1`] = `
+<section
+  class="sc-jTQCzO cNKGRn"
+  data-testid="single-product-page"
+>
+  <div
+    class="sc-gLLuof XMglp"
+  >
+    <div
+      class="sc-iBdnpw jhlKia"
+    >
+      <img
+        alt="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
+        src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+      />
+    </div>
+    <div
+      class="sc-fsYfdN iHfCed"
+    >
+      <div
+        class="sc-qZrbh hdJorP"
+      >
+        <div>
+          SKU: 
+          1
+        </div>
+        <div>
+          Category: 
+          men's clothing
+        </div>
+      </div>
+      <div
+        class="sc-jsEeTM cSiJou"
+      >
+        <h1
+          data-testid="single-product-page__product-title"
+        >
+          Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+        </h1>
+        <div>
+          $109.95
+        </div>
+      </div>
+      <p>
+        Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday
+      </p>
+      <div
+        class="sc-hLQSwg lcWqWs"
+        data-testid="product-quantity-selector"
+      >
+        <div
+          class="sc-eDLKkx kaRKTi"
+        >
+          <button
+            class="sc-dmyCSP kbuipJ"
+            data-testid="product-quantity__decrement-btn"
+          >
+            –
+          </button>
+          <input
+            data-testid="product-quantity__number-input"
+            type="number"
+            value="1"
+          />
+          <button
+            class="sc-dmyCSP kbuipJ"
+            data-testid="product-quantity__increment-btn"
+          >
+            +
+          </button>
+        </div>
+        <button
+          class="sc-dmyCSP kbuipJ"
+          data-testid="product-quantity__add-to-cart-btn"
+        >
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+`;

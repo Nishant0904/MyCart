@@ -1,0 +1,88 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Cart Page test > renders correctly with a full cart 1`] = `
+<section
+  class="sc-dmyCSP jeNyzD"
+  data-testid="cart-page"
+>
+  <div
+    class="sc-hLQSwg fKaRla"
+  >
+    <h2>
+      Your Cart
+    </h2>
+    <ul
+      class="sc-eDLKkx buiyLQ"
+    >
+      <div
+        data-testid="cart-product-item-mock"
+      >
+        <h4>
+          Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+        </h4>
+        <button />
+      </div>
+    </ul>
+  </div>
+  <div
+    class="sc-hLQSwg fKaRla"
+  >
+    <h2>
+      Summary
+    </h2>
+    <p>
+      Woohoo! You qualify for free shipping!
+    </p>
+    <div
+      class="sc-jTQCzO ieSRxs"
+    >
+      <div>
+        <p>
+          Subtotal
+        </p>
+        <p>
+          $109.95
+        </p>
+      </div>
+      <div>
+        <p>
+          Free Shipping
+        </p>
+        <p>
+          $0.00
+        </p>
+      </div>
+      <div>
+        <p>
+          Total
+        </p>
+        <p>
+          $109.95
+        </p>
+      </div>
+    </div>
+    <button
+      class="sc-beySPh gepDOA"
+    >
+      <img
+        alt="lock icon"
+        color="white"
+        src="/src/assets/icons/lock.svg"
+      />
+      Checkout Securely
+    </button>
+  </div>
+</section>
+`;
+
+exports[`Cart Page test > renders correctly with an empty cart 1`] = `
+<section
+  class="sc-guDLey eVLQBN"
+  data-testid="empty-cart-page"
+>
+  <h2>
+    Your Cart is Empty
+  </h2>
+  Add products to your cart to see them appear here!
+</section>
+`;

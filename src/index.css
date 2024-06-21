@@ -1,0 +1,58 @@
+:root {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --font: 'Lato', sans-serif;
+    --primary-txt-color: #000;
+    --secondary-txt-color: #7e7e7e;
+    --tertiary-txt-color: #fff;
+    --primary-bg-color: #fff;
+    --secondary-bg-color: #fafafa;
+    --tertiary-bg-color: #000;
+    --primary-border-color: #f3f3f3;
+    --secondary-border-color: #7e7e7e;
+    --accent-color: #e964b6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-txt-color);
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+body {
+    font-family: var(--font);
+}
+
+h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+input {
+    font-family: var(--font-family);
+    color: var(--secondary-txt-color);
+}
+
+input:focus,
+select:focus {
+    color: var(--primary-txt-color);
+    outline-color: var(--accent-color);
+}
