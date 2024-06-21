@@ -62,7 +62,7 @@ const ProductsFilterSection = ({
                 <div>
                     <label htmlFor='sort-select'>Sort:</label>
                     <select id='sort-select' onChange={handleSort}>
-                        <option value='id-ascending'>Default (by SKU)</option>
+                        <option value='id-ascending'>Default</option>
                         <option value='title-ascending'>A-Z</option>
                         <option value='title-descending'>Z-A</option>
                         <option value='price-ascending'>
